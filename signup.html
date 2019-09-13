@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+            <title>Sign Up</title>
+    </head>
+    <body>
+        <img src="images/logo.png" alt="logo">
+            <h1>MentMe Blog</h1>
+            <p style="border-bottom: 1px solid black;">
+                    <a href="">Home |</a>
+                    <a href="">About |</a>
+                    <a href="">FAQ |</a> 
+                    <a href="">Login /</a> 
+                    <a href="">Register |</a> 
+                    <a href="">Contact</a><br>
+             </p>
+            <h2 style="border-bottom: 1px solid black;"> Sign Up</h2>
+            <h2>Create an Account</h2>
+            <form action="" method="POST">
+                <Fieldset>
+                    <legend>Personal details</legend>
+                    Firstname:  
+                    <input type="text" name="Firstname" placeholder="Your Firstname"><br><br>
+                    Lastname:<input type="text" name="Lastname" placeholder="Your Lastname"><br><br>
+                    Gender<br>
+                    <input type="radio" name="gender" value="male" checked> male
+                    <input type="radio" name="gender" value="female"> Female
+                    <p>Date of Birth<br><input type="date"></p>
+                    <p>Select your interests
+                       <ul>
+                           <li><input type="checkbox" name="interest" value="music" checked> Music </li>
+                           <li><input type="checkbox" name="interest" value="comedy"> Comedy</li>
+                           <li><input type="checkbox" name="interest" value="showbiz">Showbiz</li>
+                           <li><input type="checkbox" name="interest" value="education"> Education </li>
+                       </ul>
+                      <label>
+                        Age Range<input type="number" name="age" min="-select Age-" max="15" >
+                      </label><br><br>
+                      Select Favourite Movies<br> <mark>select more than one where applicable</mark><br>
+                      <select name="favmovies" size="6" multiple>
+                          <optgroup label="series">
+                              <option>Game of Thrones</option>
+                              <option>Money Heist</option>
+                              <option>Big Bang Theory</option>
+                              <option>Heroes</option>
+                              <option>X-men wolverine</option>
+                              <option>Star dust</option>
+                              <option>Avatar</option>
+                          </optgroup>
+                      </select><br><br>
+                      <label>Select Favourite color<br><input type="color" name="favcolor"> </label>
+                    </p>
+                </Fieldset>
+                <Fieldset>
+                    <legend>Account Details</legend>
+                    <p>Upload profile Picture<br><mark>Pictrure should not be more than 100kb</mark><br><input type="file" name="photo"><br><br>
+                    Username:<input type="textarea" name="username" placeholder="Your Username" ><br><br>
+                    <label for="form-pswd">Password: </label><input type="password" name="pswd" id="form-pswd" placeholder="Your Password"><br>
+                    <label for="form-pswd">Retype Password: </label><input type="password" name="pswd" id="form-pswd" placeholder="Retype Password"><br><br>
+                    Rate Us Now (0 to 10)<br><input type="range"><br><br>
+                    <input type="checkbox" name="agree-terms" value="accept"> I agree to your terms and conditions<br> Click here for terms and conditions<br>
+                    <p><input type="submit" value="Sign Up" ><input type="reset" value="Clear Data"></p>
+                </p>
+                </Fieldset>
+                <fieldset>
+                    <legend>Disclaimer</legend>
+                    <p>All Information provided were given voluntary by the bearer of the above details</p>
+                </fieldset>
+            </form>
+            <blockquote><h2>Other Links</h2></blockquote>
+            <ul>
+                <li><a href=""> Site Map</a></li>
+                <li><a href=""> Community</a></li>
+                <li><a href=""> Archives(90)</a></li>
+                <li><a href=""> Contact</a></li>
+            </ul>
+            <p>Copyright &copy; 2019</p>
+            <p>All right Reserved</p>        
+        </body>
+</html>
